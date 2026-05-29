@@ -24,6 +24,8 @@ https://github.com/Alihan-4108/Serialize-ScriptableObject.git
 
 # Usage
 
+> **Note:** Don't forget to add `using Alihan4108.SerializeScriptableObject;` at the top of your script.
+
 Simply add the `[SerializeSO]` attribute to your serialized ScriptableObject field.
 
 ## Basic Example
