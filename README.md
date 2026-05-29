@@ -1,4 +1,4 @@
-# Serialize ScriptableObject
+# Serializer ScriptableObject
 
 Working with ScriptableObjects often requires constantly opening assets just to tweak values. This tool removes that friction.
 
