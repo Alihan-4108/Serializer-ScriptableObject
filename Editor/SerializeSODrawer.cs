@@ -53,7 +53,10 @@ namespace Alihan4108.SerializeScriptableObject
 
                     var attr = (SerializeSOAttribute)attribute;
 
-                    DrawHeader(property, attr.color);
+                    if (attr.label != "")
+                    {
+                        DrawHeader(property, attr.label, attr.color);
+                    }
 
                     var style = new GUIStyle(GUI.skin.window);
                     style.padding = new RectOffset(10, 10, 10, 10);
@@ -67,11 +70,9 @@ namespace Alihan4108.SerializeScriptableObject
             }
         }
 
-        private void DrawHeader(SerializedProperty property, string hexColor)
+        private void DrawHeader(SerializedProperty property, string headerLabel, string hexColor)
         {
             var attr = (SerializeSOAttribute)attribute;
-
-            string headerLabel = attr.label != "" ? attr.label : property.objectReferenceValue.name;
 
             ColorUtility.TryParseHtmlString(hexColor, out Color color);
 
