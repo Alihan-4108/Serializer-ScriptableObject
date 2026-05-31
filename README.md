@@ -27,7 +27,7 @@ Click the `+` button → `Add package from git URL...`
 Paste:
 
 ```txt
-https://github.com/Alihan-4108/Serialize-ScriptableObject.git
+https://github.com/Alihan-4108/Serializer-ScriptableObject.git
 ```
 
 # Usage
