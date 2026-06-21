@@ -112,7 +112,7 @@ public class Example : MonoBehaviour
     [SerializeField] private PlayerData playerData;
 
     //Example 2
-    [SerializeSO( label: "Enemy Settings", titleAlignment: TextAnchor.MiddleCenter, color: "#FF5555")]
+    [SerializeSO(label: "Enemy Settings", titleAlignment: TextAnchor.MiddleCenter, color: "#FF5555")]
     [SerializeField] private EnemyData enemyData;
 }
 ```
